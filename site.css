@@ -13,6 +13,9 @@ main h1{
     text-align: center;
     color: #FFFFFF;
     background-color: #851944;
+    padding: 25px;
+    border-bottom: 10px solid #111111;
+    margin: 0px;
 }
 
 p{
@@ -21,6 +24,9 @@ p{
 
 blockquote{
     background-color: #D9E5E3;
+    border: 10px solid #C2CCCA;
+    width: 250px;
+    box-sizing: border-box;
 }
 
 aside{
@@ -40,4 +46,13 @@ footer{
 
 main a{
     color: #851944;
+}
+
+aside, footer, blockquote{
+    padding: 20px;
+}
+
+main div{
+    width: 720px;
+    margin: auto;
 }
