@@ -1,5 +1,8 @@
 .foto-home {
     height: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }
 
 .saudacao p {
@@ -26,6 +29,8 @@
 .saudacao em {
     color: #851944;
     font-size: 5rem;
+    display: inline-block;
+    transform: rotate(-5deg) skew(-10deg);
 }
 
 .botao-index {
@@ -121,66 +126,95 @@ header{
     position: relative;
 }
 
-.palavra-home{
+.palavra-home {
     position: absolute;
-    font-family: 'Shadows Into Light', cursive;
-    color: #D5447E;
+    font-family: "Shadows Into Light", cursive;
     font-weight: bold;
+    color: #D5447E;
+
 }
 
-.eficiencia{
-    top: 5%;
-    left: 5%;
+.palavras-chave{
+    perspective: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
-.boas-praticas{
-    top: 5%;
-    left: 15%;
+
+.eficiencia {
+    top: 30%;
+    left: 63%;
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg) translateZ(5px);
 }
 
-.codigo-limpo{
-    top: 28%;
-    left: 15%
+.boas-praticas {
+    top: 60%;
+    left: 30%;
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg) translateZ(6px);
 }
 
-.css3{
-    top: 42%;
-    left: 10.5%;
-}
-
-.html5{
-    top: 15%;
+.codigo-limpo {
+    top: 45%;
     left: 10%;
+    transform: translateZ(-2px);
 }
 
-.javascript{
-    top: 28%;
-    left: 6%;
+.css3 {
+    top: 50%;
+    left: 30%;
+    transform: translateZ(-5px);
 }
 
-.acessibilidade{
-    top: 5%;
-    right: 9%;
+.html5 {
+    top: 45%;
+    left: 52%;
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg) translateZ(10px);
 }
 
-.responsivo{
-    top: 28%;
-    right: 10%;
+.javascript {
+    top: 30%;
+    left: 55%;
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg) translateZ(7px);
 }
 
-.otimizacoes{
-    top: 5%;
-    right: 25%;
+.acessibilidade {
+    top: 30%;
+    left: 23%;
+    -webkit-transform: rotate(9deg);
+    transform: rotate(9deg);
 }
 
-.agilidade{
-    top: 42%;
-    right: 17.5%
+.responsivo {
+    top: 15%;
+    left: 15%;
+    -webkit-transform: rotate(-11deg);
+    transform: rotate(-11deg);
 }
 
-.design{
-    top: 28%;
-    right: 25.5%;
+.otimizacoes {
+    top: 60%;
+    left: 70%;
+    -webkit-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+}
+
+.agilidade {
+    top: 10%;
+    left: 30%;
+    -webkit-transform: rotate(13deg);
+    transform: rotate(13deg);
+}
+
+.design {
+    top: 35%;
+    left: 65%;
 }
 
 li .inicio-post{
@@ -203,4 +237,23 @@ li .inicio-post{
 
 .blog li{
     width: 30%;
+}
+
+.titulo-principal .twitter{
+    width: 14em;
+    background-color: #3C1D3D;
+    border: .25em solid #000;
+    line-height: 1;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    padding: 1em 0;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform-origin: 0 0;
+    transform: translate(6.5754em, -2.4749em) rotate(45deg);
 }
