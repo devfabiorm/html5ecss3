@@ -143,73 +143,78 @@ header{
     bottom: 0;
 }
 
+.palavras-chave li{
+    font-size: 400%;
+}
 
 .eficiencia {
-    top: 30%;
-    left: 63%;
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg) translateZ(5px);
+    top: 55%;
+    left: 73%;
+    -webkit-transform: rotate(15deg) translate(-50%, -50%) translateZ(5px) scale(0.25);
+    transform: rotate(15deg) translate(-50%, -50%) translateZ(5px) scale(0.25);
 }
 
 .boas-praticas {
-    top: 60%;
+    top: 50%;
     left: 30%;
-    -webkit-transform: rotate(-15deg);
-    transform: rotate(-15deg) translateZ(6px);
+    -webkit-transform: rotate(-15deg) translate(-50%, -50%) translateZ(6px) scale(0.25);
+    transform: rotate(-15deg) translate(-50%, -50%) translateZ(6px) scale(0.25);
 }
 
 .codigo-limpo {
     top: 45%;
-    left: 10%;
-    transform: translateZ(-2px);
+    left: 30%;
+    -webkit-transform: translateZ(-2px) translate(-50%, -50%) translateZ(9px) scale(0.25);
+    transform: translateZ(-2px) translate(-50%, -50%) translateZ(9px) scale(0.25);
 }
 
 .css3 {
     top: 50%;
-    left: 30%;
-    transform: translateZ(-5px);
+    left: 32%;
+    -webkit-transform: translate(-50%, -50%) translateZ(-1px) scale(0.25);
+    transform: translate(-50%, -50%) translateZ(-1px) scale(0.25);
 }
 
 .html5 {
     top: 45%;
-    left: 52%;
-    -webkit-transform: rotate(10deg);
-    transform: rotate(10deg) translateZ(10px);
+    left: 58%;
+    -webkit-transform: rotate(10deg) translate(-50%, -50%) translateZ(10px) scale(0.25);
+    transform: rotate(10deg) translate(-50%, -50%) translateZ(10px) scale(0.25);
 }
 
 .javascript {
     top: 30%;
-    left: 55%;
-    -webkit-transform: rotate(-12deg);
-    transform: rotate(-12deg) translateZ(7px);
+    left: 57%;
+    -webkit-transform: rotate(-12deg) translate(-50%, -50%) translateZ(7px) scale(0.25);
+    transform: rotate(-12deg) translate(-50%, -50%) translateZ(7px) scale(0.25);
 }
 
 .acessibilidade {
-    top: 30%;
-    left: 23%;
-    -webkit-transform: rotate(9deg);
-    transform: rotate(9deg);
+    top: 23%;
+    left: 30%;
+    -webkit-transform: rotate(9deg) translate(-50%, -50%) translateZ(-2px) scale(0.25);
+    transform: rotate(9deg) translate(-50%, -50%) translateZ(-2px) scale(0.25);
 }
 
 .responsivo {
-    top: 15%;
-    left: 15%;
-    -webkit-transform: rotate(-11deg);
-    transform: rotate(-11deg);
+    top: 10%;
+    left:10%;
+    -webkit-transform:rotate(-11deg) translate(-50%, -50%) translateZ(-3px) scale(0.25);
+    transform: rotate(-11deg) translate(-50%, -50%) translateZ(-3px) scale(0.25);
 }
 
 .otimizacoes {
-    top: 60%;
-    left: 70%;
-    -webkit-transform: rotate(-8deg);
-    transform: rotate(-8deg);
+    top: 65%;
+    left: 78%;
+    -webkit-transform: rotate(-8deg) translate(-50%, -50%) scale(0.25);
+    transform: rotate(-8deg) translate(-50%, -50%) scale(0.25);
 }
 
 .agilidade {
-    top: 10%;
-    left: 30%;
-    -webkit-transform: rotate(13deg);
-    transform: rotate(13deg);
+    top: 55%;
+    left: 41%;
+    -webkit-transform: rotate(13deg) translate(-50%, -50%) translateZ(10px) scale(0.25);
+    transform: rotate(13deg) translate(-50%, -50%) translateZ(10px) scale(0.25);
 }
 
 .design {
