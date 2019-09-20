@@ -1,0 +1,13 @@
+.cubo{
+    position: relative;
+    }
+    .face{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    }
+    
+    .primeira{
+    background-color: red;
+    
+    }
